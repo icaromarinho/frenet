@@ -12,7 +12,7 @@ Apesar disso, o código possui o fluxo completo para realizar o cadastro, o que 
 ---
 
 ## ✅ Testes Implementados
-A suite cobre os seguintes cenários:
+A suíte cobre os seguintes cenários:
 
 - Cadastro de novo usuário (bloqueado pelo reCAPTCHA).
 - Não deve cadastrar sem nome.
@@ -72,18 +72,18 @@ Antes de começar, certifique-se de ter instalado:
 ### 2. Clonar o repositório
 No terminal, execute:
 
-git clone https://github.com/icaromarinho/frenet.git
+    git clone https://github.com/icaromarinho/frenet.git
 
 ### 3. Acessar a pasta do projeto
-`cd frenet`
+    cd frenet
 
 ### 4. Instalar o Cypress e dependências
 Instale todas as dependências listadas no **package.json**:
 
-`npm install`
+    npm install
 
 ### 5. Abrir o Cypress em modo interativo
-`npx cypress open`
+    npx cypress open
 
 - A interface gráfica do Cypress será aberta.
 - Selecione o arquivo **`cadastro.cy.js`** dentro da pasta **`cypress/e2e/`** para rodar os testes.
@@ -91,7 +91,7 @@ Instale todas as dependências listadas no **package.json**:
 ### 6. Executar os testes em modo headless (opcional)
 Se preferir rodar sem interface:
 
-`npx cypress run`
+    npx cypress run
 
 - O Cypress executará todos os testes e exibirá os resultados diretamente no terminal.
 
