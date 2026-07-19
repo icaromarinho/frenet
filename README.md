@@ -94,3 +94,8 @@ Se preferir rodar sem interface:
 `npx cypress run`
 
 - O Cypress executará todos os testes e exibirá os resultados diretamente no terminal.
+
+## 📸 Resultado da Execução
+Os testes foram executados com sucesso, conforme mostra a imagem abaixo:
+
+![Execução dos testes de cadastro](docs/resultado_testes.png)
