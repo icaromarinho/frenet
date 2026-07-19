@@ -1,0 +1,13 @@
+# Ignorar dependências instaladas localmente
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar cache do Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
